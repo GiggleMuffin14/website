@@ -8,7 +8,11 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
-
+{
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cossette+Texte:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+}
 :root {
   --text: #ffffff;
   --text-muted: #c0c0c0;
@@ -603,6 +607,9 @@ body > *:not(.decoration-section) {
   <img src="images/woah.jpg" class="decoration-photo" alt="Woah">
   <img src="images/yarrs.jpg" class="decoration-photo" alt="Yarrs">
   <img src="images/YAY.jpg" class="decoration-photo" alt="YAY">
+  <img src="images/femtanyl12.jpg" class="decoration-photo" alt="Femtanyl12">
+  <img src="images/femtanyl13.jpg" class="decoration-photo" alt="Femtanyl13">
+  <img src="images/femtanyl14.jpg" class="decoration-photo" alt="Femtanyl14">
 </div>
 
 <div class="header-box">
@@ -646,8 +653,44 @@ body > *:not(.decoration-section) {
       <p class="inset">Here are some of my recent projects:</p>
       <ul style="color: #000;">
         <li><strong>Retro Website Builder:</strong> A tool to create Windows 95-style websites easily.</li>
-        <li><strong>Security Scanner:</strong> A simple script for basic vulnerability scanning.</li>
+        <li><strong>Bunny addon:</strong> A simple script for adding bunny images to youtube thumbnails.</li>
         <li><strong>Game Dev Experiments:</strong> Fun little games built with HTML5 and JavaScript.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="window">
+  <div class="title-bar">
+    <span>BunnyThumbs Extension</span>
+    <div class="buttons">
+      <button>_</button>
+      <button>□</button>
+      <button>X</button>
+    </div>
+  </div>
+
+  <div class="menu-bar">File Edit View Help</div>
+
+  <div class="content">
+    <div class="section">
+      <h2>🐰 BunnyThumbs - YouTube Extension</h2>
+      <p class="inset">Ever wanted to make your YouTube experience cuter? BunnyThumbs is a Chrome extension that adds adorable bunnies to YouTube video thumbnails! Transform your feed into a hopping good time.</p>
+    </div>
+
+    <div class="section">
+      <h2>What it does</h2>
+      <p class="inset">BunnyThumbs automatically detects YouTube thumbnails and overlays a cute bunny graphic from a custom made api. Each bunny is uniquely positioned giving your YouTube feed a playful, charming aesthetic. Whether you're watching gaming content, tutorials, or vlogs, the bunnies make every thumbnail more fun!</p>
+    </div>
+
+    <div class="section">
+      <h2>Features</h2>
+      <ul style="color: #000;">
+        <li><strong>Automatic Detection:</strong> Works on YouTube homepages no matter youre browser as the addon interacts with youtube directly</li>
+        <li><strong>near infinite pictures!:</strong> Ever growing list of bunny images added from my github api! you can add youre own by forking the project</li>
+        <li><strong>works in quick play to:</strong> works on those lil ones next to the video youre watching</li>
+        <li><strong>Lightweight:</strong> Minimal performance impact on your browsing</li>
+        <li><strong>Easy Toggle:</strong> Enable or disable with a single click</li>
       </ul>
     </div>
   </div>
